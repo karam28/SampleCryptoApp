@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A15B552C430DD800CFE811 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A15B542C430DD800CFE811 /* HomeViewModel.swift */; };
 		24EC11972C3E613E002BEF69 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC11962C3E613E002BEF69 /* CryptoAppApp.swift */; };
 		24EC11992C3E613E002BEF69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC11982C3E613E002BEF69 /* ContentView.swift */; };
 		24EC119B2C3E6140002BEF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EC119A2C3E6140002BEF69 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24A15B542C430DD800CFE811 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		24EC11932C3E613E002BEF69 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EC11962C3E613E002BEF69 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		24EC11982C3E613E002BEF69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		24EC11AC2C3E67E6002BEF69 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				24A15B542C430DD800CFE811 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EC11B82C3E9534002BEF69 /* CoinRowView.swift in Sources */,
+				24A15B552C430DD800CFE811 /* HomeViewModel.swift in Sources */,
 				24EC11992C3E613E002BEF69 /* ContentView.swift in Sources */,
 				24EC11AE2C3E6804002BEF69 /* HomeView.swift in Sources */,
 				24EC11972C3E613E002BEF69 /* CryptoAppApp.swift in Sources */,
