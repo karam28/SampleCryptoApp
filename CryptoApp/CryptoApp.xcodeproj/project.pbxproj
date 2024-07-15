@@ -22,6 +22,9 @@
 		24EC11BA2C3E95B7002BEF69 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC11B92C3E95B7002BEF69 /* PreviewProvider.swift */; };
 		24EC11BC2C419CC2002BEF69 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC11BB2C419CC2002BEF69 /* Double.swift */; };
 		24EF0C892C45123D00FFE29F /* NetworkingManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF0C882C45123D00FFE29F /* NetworkingManager .swift */; };
+		24EF0C8C2C45153700FFE29F /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF0C8B2C45153700FFE29F /* CoinImageView.swift */; };
+		24EF0C8E2C45237F00FFE29F /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF0C8D2C45237F00FFE29F /* CoinImageService.swift */; };
+		24EF0C902C452D4700FFE29F /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF0C8F2C452D4700FFE29F /* CoinImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		24EC11B92C3E95B7002BEF69 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		24EC11BB2C419CC2002BEF69 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		24EF0C882C45123D00FFE29F /* NetworkingManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkingManager .swift"; sourceTree = "<group>"; };
+		24EF0C8B2C45153700FFE29F /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		24EF0C8D2C45237F00FFE29F /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		24EF0C8F2C452D4700FFE29F /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				24A15B572C442C3B00CFE811 /* CoinDataService.swift */,
+				24EF0C8D2C45237F00FFE29F /* CoinImageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 		24EC11AF2C3E6979002BEF69 /* UtilityComponents */ = {
 			isa = PBXGroup;
 			children = (
+				24EF0C8A2C45151800FFE29F /* CoinImage */,
 				24EC11B02C3E699C002BEF69 /* CircleButtonView.swift */,
 				24EC11B22C3E6CE5002BEF69 /* CircleButtonAnimationView.swift */,
 			);
@@ -170,6 +178,15 @@
 				24EF0C882C45123D00FFE29F /* NetworkingManager .swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		24EF0C8A2C45151800FFE29F /* CoinImage */ = {
+			isa = PBXGroup;
+			children = (
+				24EF0C8B2C45153700FFE29F /* CoinImageView.swift */,
+				24EF0C8F2C452D4700FFE29F /* CoinImageViewModel.swift */,
+			);
+			path = CoinImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,13 +264,16 @@
 				24A15B552C430DD800CFE811 /* HomeViewModel.swift in Sources */,
 				24EC11992C3E613E002BEF69 /* ContentView.swift in Sources */,
 				24EC11AE2C3E6804002BEF69 /* HomeView.swift in Sources */,
+				24EF0C8C2C45153700FFE29F /* CoinImageView.swift in Sources */,
 				24EC11972C3E613E002BEF69 /* CryptoAppApp.swift in Sources */,
 				24EC11B12C3E699C002BEF69 /* CircleButtonView.swift in Sources */,
 				24EF0C892C45123D00FFE29F /* NetworkingManager .swift in Sources */,
 				24EC11A82C3E65A4002BEF69 /* Color.swift in Sources */,
 				24EC11B32C3E6CE5002BEF69 /* CircleButtonAnimationView.swift in Sources */,
+				24EF0C902C452D4700FFE29F /* CoinImageViewModel.swift in Sources */,
 				24EC11BA2C3E95B7002BEF69 /* PreviewProvider.swift in Sources */,
 				24EC11BC2C419CC2002BEF69 /* Double.swift in Sources */,
+				24EF0C8E2C45237F00FFE29F /* CoinImageService.swift in Sources */,
 				24EC11B62C3E7555002BEF69 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
