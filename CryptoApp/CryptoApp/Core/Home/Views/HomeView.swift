@@ -22,6 +22,7 @@ struct HomeView: View {
             /// Content Layer
             VStack {
                 homeHeader
+                HomeStatsView(showPortfolio: $showPortfolio)
                 SearchBarView(searchText: $vm.searchText)
                 columnTitle
                 if !showPortfolio {
@@ -110,7 +111,7 @@ extension HomeView {
             
         }
         .listStyle(PlainListStyle())
-    }
+    }  
     
     private var columnTitle: some View {
         HStack {
